@@ -48,11 +48,6 @@ public class TaskController {
 		return taskRepository.save(task);
 	}
 
-	/**
-	 * Casdasdads a
-	 * 
-	 * @param task 
-	 */
 	@DeleteMapping("/tasks")
 	public void deleteTask(@RequestBody Task task) {
 		taskRepository.delete(task);
