@@ -15,7 +15,6 @@ import javax.persistence.Id;
 public class Task {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 
 	private final String description;
