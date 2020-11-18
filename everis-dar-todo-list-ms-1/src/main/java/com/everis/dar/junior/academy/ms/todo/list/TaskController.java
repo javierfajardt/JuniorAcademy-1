@@ -33,7 +33,7 @@ public class TaskController {
 		return taskRepository.findById(id);
 	}
 	
-	@GetMapping("/countTasks")
+	@GetMapping("/allTasks")
 	public Long countTasks() {
 		return taskRepository.count();
 	}
