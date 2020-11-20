@@ -6,7 +6,7 @@ name: Build and deploy JAR app to Azure Web App - everis-JA-todo-list
 on:
   push:
     branches:
-      - main
+      - main/Backend/everis-dar-todo-list-ms-1
 
 jobs:
   build-and-deploy:
