@@ -128,16 +128,6 @@ paths:
         "400":
           description: "Invalid id supplied"
   /allTasks:
-    get:
-      tags:
-      - "AllTasks"
-      summary: "Counts the number of current tasks."
-      operationId: "countTasks"
-      produces:
-      - "integer"
-      responses:
-        "405":
-          description: "Invalid input"
     delete:
       tags:
       - "AllTasks"
