@@ -59,14 +59,6 @@ public class Task {
 	}
 
 	/**
-	 * Set ID to the current Task.
-	 * @param id New ID value.
-	 */
-	public void setId(final Long id) {
-		this.id = id;
-	}
-
-	/**
 	 * Task Description Getter.
 	 * @return Task Description.
 	 */
