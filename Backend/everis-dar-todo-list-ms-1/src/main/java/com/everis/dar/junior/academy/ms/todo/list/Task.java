@@ -1,6 +1,8 @@
 package com.everis.dar.junior.academy.ms.todo.list;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
@@ -15,6 +17,7 @@ public class Task {
 	 * Task Unike ID.
 	 */
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
 	/**
