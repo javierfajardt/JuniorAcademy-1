@@ -31,7 +31,8 @@
         <form class="col-12 p-0">
           <mat-form-field class="col-12 p-0" appearance="standard">
             <mat-label>Task description</mat-label>
-            <textarea matInput [formControl]="newTaskData.control"></textarea>
+            <input maxlength="10" matInput [formControl]="newTaskData.control"/>
+            <mat-hint align="end">{{newTaskData.control.value.length}} / 256</mat-hint>
           </mat-form-field>
         </form>
       </div>
