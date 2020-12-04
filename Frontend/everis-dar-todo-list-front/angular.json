@@ -122,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "everis-dar-todo-list-front"
+    }
+  },
+  "defaultProject": "everis-dar-todo-list-front",
+  "cli": {
+    "analytics": false
+  }
 }
