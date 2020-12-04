@@ -27,7 +27,7 @@ import { Configuration }                                     from '../configurat
 @Injectable()
 export class TasksService {
 
-    protected basePath = 'http://everis-ja-todolist-apiman.azure-api.net/aci';
+    protected basePath = 'https://everis-ja-todolist-apiman.azure-api.net/aci';
     public defaultHeaders = new HttpHeaders();
     public configuration = new Configuration();
 
