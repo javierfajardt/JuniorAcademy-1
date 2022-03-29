@@ -50,4 +50,4 @@ jobs:
           app-name: 'academia-nova-todolist'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D7BC6FCAE54C408F85A3D986BE7699A7 }}
-          package: '${{ github.workspace }}/Backend/everis-dar-todo-list-ms-1/target/*.jar'
+          package: '*.jar'
