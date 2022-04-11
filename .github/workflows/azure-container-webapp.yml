@@ -17,9 +17,6 @@
 #       DOCKER_REGISTRY_SERVER_URL: Set this to "https://ghcr.io"
 #       DOCKER_REGISTRY_SERVER_USERNAME: Set this to the GitHub username or organization that owns the repository
 #       DOCKER_REGISTRY_SERVER_PASSWORD: Set this to the value of your PAT token from the previous step
-- uses: azure/webapps-deploy@v2
-  with:
-    publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
 #
 # 5. Change the value for the AZURE_WEBAPP_NAME.
 #
