@@ -45,13 +45,13 @@ jobs:
           cache: 'maven'
 
       - name: Build with Maven
-        run: mvn -f Backend/everis-dar-todo-list-ms-1/pom.xml
+        run: mvn -f Backend\everis-dar-todo-list-ms-1\pom.xml clean install
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
           name: java-app
-          path: '${{ github.workspace }}/Backend/everis-dar-todo-list-ms-1/target/*.jar'
+          path: '${{ github.workspace }}\Backend\everis-dar-todo-list-ms-1\target\*.jar'
 
   deploy:
     runs-on: windows-latest
