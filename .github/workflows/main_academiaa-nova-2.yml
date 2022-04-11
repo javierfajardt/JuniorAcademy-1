@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'academiaa-nova-2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9926B786914642A7AD8EB626A76F5528 }}
+          publish-profile: ${{ secrets.NUEVO-SECRETO }}
           package: '*.jar'
